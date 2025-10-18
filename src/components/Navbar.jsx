@@ -86,7 +86,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {showMenu && (
-        <div className="md:hidden mt-4 bg-dark-300 h-screen rounded-lg p-4 flex flex-col space-y-4 text-center justify-center">
+        <div className="md:hidden mt-4 bg-dark-300 h-screen rounded-lg p-4 flex flex-col space-y-4">
           <a
             onClick={() => setShowMenu(!showMenu)}
             href="#home"

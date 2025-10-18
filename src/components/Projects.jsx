@@ -25,7 +25,7 @@ const Projects = () => {
           A selection of my recent work
         </p>
         {/* project cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-auto">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}

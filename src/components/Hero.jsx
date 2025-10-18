@@ -57,7 +57,7 @@ const Hero = () => {
                   repeatType: "loop",
                   ease: "easeInOut",
                 }}
-                className="relative rounded-full w-64 md:w-80 md:h-80 object-cover z-10 animate-float"
+                className="relative rounded-full w-64 h-64 md:w-80 md:h-80 object-cover z-10 animate-float"
                 src={assets.profileImg}
                 alt="Profile"
               />
